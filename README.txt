@@ -1,4 +1,4 @@
-Parts of the CSS of Aside Bootstrap template was used for this site. The HTML and some JavaScript were edited by me.
+WIP
 
 THEME: Aside - Free Bootstrap 4 Theme
 AUTHOR: uiCookies.com
