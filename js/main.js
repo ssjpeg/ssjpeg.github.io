@@ -59,14 +59,10 @@ $(function(){
 	var contentWayPoint = function() {
 		var i = 0;
 		jQuery('.probootstrap-animate').waypoint( function( direction ) {
-
 			if( direction === 'down' && !jQuery(this.element).hasClass('probootstrap-animated') ) {
-				
 				i++;
-
 				jQuery(this.element).addClass('item-animate');
 				setTimeout(function(){
-
 					jQuery('body .probootstrap-animate.item-animate').each(function(k){
 						var el = jQuery(this);
 						setTimeout( function () {
@@ -103,7 +99,4 @@ $(function(){
 		  }
 		);
 	}
-
-
-
 });
